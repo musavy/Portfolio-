@@ -185,7 +185,14 @@ a.anchor {
   #contact .fa-stack:hover .fa-stack-1x{
     color: #333;
     transition: 0.5s;
+    transition: 500ms ease-in-out;
+transform: scale(1.5);
+transform: rotate(30deg);
+cursor: pointer;
+
   }
+
+ 
 
   #contact .fa-stack:hover .fa-stack-2x{
     color: #fff;
