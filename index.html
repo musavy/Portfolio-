@@ -36,6 +36,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#portfolio-link">Projects</a></li>
             <li><a href="#about-link">About</a></li>
+            <li><a href="#skills-link">Skills</a></li>
             <li><a href="#contact-link">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -154,21 +155,43 @@
               </div>
               <div id="white-bg" class="col-lg-8">
                 <p>
+                  <b>
+                    <em>
                    Information Computer technology  Graduate from Finland Adult college. <br>
-                   Front-End Developer. 
+                   I am a Front-End Developer and learning Back-End to become a Full-Stack Developer. Having educational background and experience in IT and DBA I am looking forward to join your team to develop Full-Stack solutions 
+                    </em>
+                  </b>
                   
                   
                 </p>
+                
               </div>
             </div>
           </div>
     </div>
     <!-- End About Section -->
+<!--start skills section -->
 
+
+<a class="anchor" id="skills-link"></a>
+<div id="skills" class="container-fluid text-center">
+<img src="./assets/image/html.png" alt="html">
+<img src="./assets/image/css.jpg" alt="css">
+<img src="./assets/image/js.png" alt="javascript">
+<img src="./assets/image/react.png" alt="react">
+<img src="./assets/image/nodejs.png" alt="nodejs">
+<img src="./assets/image/gatsby.jpg" alt="gatsby">
+<img src="./assets/image/mongodb.png" alt="mongodb">
+
+
+
+
+
+</div>
     <!-- Start Contact Section -->
     <a class="anchor" id="contact-link"></a>
     <div id="contact" class="container-fluid text-center">
-      <h1>Contact</h1>
+      <h1>Contact Us</h1>
       <hr />
       <div class="container">
         <div class="row">
@@ -205,27 +228,35 @@
           </div>
          
         </div>
+      
+      
+      <!--contact form-->
+      <div id="cont" class="contact-us">
+          <div class="overlay">
+              <div class="container">
+                  <div  class="contact">
+                      <h2 class="special-heading">Link us</h2>
+                      <form>
+                          <input class="one" type="text" name="text" placeholder="name">
+                          <input class="two" type="email" name="email" placeholder="e-mail">
+                          <input class="three" type="text" name="number" placeholder="phone">
+                          <input class="four" type="text" name="text" placeholder="city">
+                          <textarea class="five" placeholder="message"></textarea>
+                          <div class="click">
+                              <button>send</button>
+                              <button>reset</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
       </div>
+    </div>
     </div>
     <!-- End Contact Section -->
 
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $(".navbar-nav li").click(function(){
-          $(".navbar-nav li").removeClass("active");
-          $(this).addClass("active");
-        }
-        );
-
-        $('.navbar-nav a').click(function(event){
-            event.preventDefault();
-            $('html, body').animate({
-                scrollTop: $( $.attr(this, 'href') ).offset().top
-            }, 500);
-        });
-
-      }
-      );
+    <script src="./assets/js/main.js">
+    
     </script>
   </body>
 </html>
