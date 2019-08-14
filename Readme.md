@@ -1,6 +1,6 @@
 # Demo
 
-[Portfolio](https://musavy.github.io/Portfolio-/)
+[click here to see my Portfolio](https://musavy.github.io/Portfolio-/)
 
 # Technologies
 
